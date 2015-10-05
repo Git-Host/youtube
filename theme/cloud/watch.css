@@ -1,0 +1,65 @@
+.desBox {
+	font-size: 12px;
+	border: 1px solid #666666;
+}
+.desfull {
+	overflow: auto;
+	height: 220px;
+}
+.miniTitle {
+	font-size: 18px;
+	font-family: "微软雅黑", "文泉驿微米黑", "华文细黑", "Segoe UI", Arial;
+	font-weight: normal;
+	color: #000000;
+	line-height: 24px;
+}
+#falseVideoField {
+	-webkit-transition: height .25s linear;
+	transition: height .25s linear;
+}
+#trueVideoField {
+	position: absolute;
+	visibility: visible;
+	text-align: center;
+}
+#player_object {
+	width:100%;
+	height:100%;
+}
+#video_playlist_jar {
+	height:440px;
+	overflow: auto;
+}
+.vitem_current {
+	font-weight: bold;
+}
+.vitem {}
+#comments,#comments_jar{
+	padding:0px;
+	margin:0px;
+	width:640px;
+	list-style-type: none;
+}
+#comments li {
+	list-style-type: none;
+	padding:0px;
+	margin:0px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #A7C992;
+}
+#comments li blockquote {
+	list-style-type: none;
+	padding:2px;
+	margin:4px;
+	border: dotted 1px #A7C992;
+}
+#comments li div ,#comments li div a{
+	color:#5C8743;
+}
+#comments li:nth-child(even) {
+	background-color:#C6D6DB;
+}
+#comments li:hover {
+	background-color:#BED0D6;
+}

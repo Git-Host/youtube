@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /theme/
+Disallow: /plugin/
+Disallow: /lib/
+Disallow: /images/
+Disallow: /local/
+Disallow: /stat/
+Disallow: /watch
+Disallow: /category
+Disallow: /local
+Disallow: /lang
+Disallow: /orderby
+Disallow: /person
+Disallow: /find

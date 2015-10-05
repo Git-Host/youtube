@@ -1,0 +1,4 @@
+ErrorDocument 404 /baderr.html
+RewriteEngine on
+RewriteBase /
+RewriteRule /watch?v=(.*) /watch.php

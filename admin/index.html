@@ -1,0 +1,61 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>登陆你管索引</title>
+<link href="s1.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.gonow {
+	font-size: 36px;
+	color: #000000;
+	text-decoration: none;
+	margin: 10px;
+	padding: 10px;
+	border: 1px outset;
+}
+-->
+</style>
+</head>
+
+<body>
+<h2>你管索引后台</h2>
+<table width="100%" border="0">
+  <tr>
+    <td width="55%"> 
+      <div class="box1">
+  <h3>还没有登陆吗？</h3>
+        <blockquote>
+          <p>请输入密码登陆。</p>
+          <p>如果密码修改过但是忘记了，可以删除pswcon.php以重置密码！<br>
+            默认密码：123456</p>
+        </blockquote>
+  <form method="post" action="login.php">
+    <label>密码
+          <input name="psw" type="password" id="psw" maxlength="200">
+          </label>
+    <br>
+	<label><input name="remember" type="checkbox" value="y">记住我</label>
+	      <p>
+            <input type="submit" value="登陆">
+          </p>
+          </form>
+</div>
+	</td>
+    <td>
+<div class="box1">
+  <h3>早就登陆了？</h3>
+  <blockquote>
+  <p>如果你已经登陆了，就去控制板吧！</p>
+          <p><br>
+            <a href="panel.php" class="gonow">访问控制板</a></p>
+  </blockquote>
+</div>
+</td>
+  </tr>
+</table>
+<hr>
+<p style="font-size:12px;">
+<a href="http://code.google.com/p/youtubeindex/">该站点基于《你管索引》，详情点击这里</a>
+</p>
+</body>
+</html>
